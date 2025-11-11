@@ -1,0 +1,126 @@
+/* style.css — Desain sederhana tapi menarik untuk Manajemen Kursus */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Header ===== */
+.main-header {
+  background-color: #2563eb;
+  color: #fff;
+  padding: 25px 0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.main-header h1 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.main-header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.main-header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.main-header nav a:hover {
+  color: #e0f2fe;
+  border-bottom: 2px solid #fff;
+}
+
+/* ===== Konten ===== */
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.intro h2 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #555;
+  font-size: 15px;
+}
+
+/* ===== Kartu ===== */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 280px;
+  text-align: center;
+  padding: 25px 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #2563eb;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background: #2563eb;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 60px;
+  font-size: 14px;
+}
